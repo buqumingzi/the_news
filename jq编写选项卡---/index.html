@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			#div1{
+				width: 400px;
+				height: 400px;
+				margin: 0 auto;
+			}
+			#div1 div{
+				width: 100px;
+				height: 100px;
+				border: 1px solid black;
+			}
+			.active{
+				display: none;
+			}
+			.red{
+				background: red;
+			}
+		</style>
+		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				/*方法一*/
+				/*$("#1").click(function(){
+					$("#d1").show().siblings().hide();
+				});
+					$("#2").click(function(){
+				$("#d2").show().siblings().hide();
+				});
+					$("#3").click(function(){
+				$("#d3").show().siblings().hide();
+				});*/
+				
+				/*方法二*/
+				/*$("input").click(function(){
+					var t="#d"+$(this).val();
+					$(t).show().siblings().hide();
+					})*/
+					
+					
+				/*$('#div1').find('input').click(function(){
+					$('#div1').find('input').attr('class','');
+					$('#div1').find('#d').find('div').hide();
+					
+					$(this).attr('class','red');
+					$('#div1').find('#d').find('div').eq($(this).val()-1).show().siblings().hide();
+					
+					
+				})		*/
+				
+				/*$("#div1").find("input").click(function(){			
+					$("#div1").find("div").hide();
+					$('#div1').find("div").eq($(this).index()).show();
+				
+				});*/
+				
+				
+			});
+		</script>
+		
+		<!--<script type="text/javascript">
+			/*原生js*/
+			window.onload=function(){
+				var oDiv=document.getElementById("div1");
+				var aInput=aInput =oDiv.getElementsByTagName("input");
+				var oCon=oDiv.getElementsByTagName("div");
+				
+				for(var i=0;i<aInput.length;i++){
+					aInput[i].index=i;
+					aInput[i].onclick=function(){
+						for(var i=0;i<aInput.length;i++){
+							aInput[i].className="";
+							oCon[i].style.display="none";
+						}
+						this.className="red";
+						oCon[this.index].style.display="block";
+					}
+					
+				}
+				
+			}
+		</script>
+		-->
+		
+	</head>
+	<body>
+		<div id="div1">
+			<input id="1" type="button" value="1" />
+			<input id="2" type="button" value="2"/>
+			<input id="3" type="button" value="3"/>
+			<!--<div id="d">-->
+				<div id="d1">11111</div>
+				<div id="d2" class="active">2222</div>
+				<div id="d3" class="active">3333</div>
+			<!--</div>-->
+		</div>
+	</body>
+</html>
