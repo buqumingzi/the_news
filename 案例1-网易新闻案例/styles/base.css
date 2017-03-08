@@ -1,0 +1,98 @@
+/*将浏览器进行初始化*/
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: "Arial Black","MicrosoftYaHe";
+}
+/*设置整体边框。设置左右两边的边框*/
+#box{
+    width: 300px;
+    border-left: 1px solid #aaaaaa;
+    border-right: 1px solid #aaaaaa;
+}
+/*我的产品*/
+#title{
+    width: 148px;
+    height: 38px;
+    border-top: 2px solid #ff3333;
+   /* border-left:1px solid #aaaaaa;*/
+    border-right:1px solid #aaaaaa;
+}
+#title h3{
+    color: #ff3333;
+    font-size:17px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 38px;
+}
+
+/*写网易邮箱 网易考拉，网易游戏*/
+#box hr{
+    border-top: 1px solid #aaaaaa;
+}
+
+#box_content1,#box_content2,#box_content3{
+    width: 215px;
+    height:53px;
+    margin: 20px auto 0 auto;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+#box_content1,#box_content2,#box_content3{
+    padding-left: 53px;
+}
+#box_content1 a,#box_content2 a,#box_content3 a{
+    color: black;
+}
+
+#box_content1 ul li a,#box_content2 ul li a,#box_content3 ul li a{
+    color: #5c5c5c;
+}
+#box_content1 ul li,#box_content2 ul li,#box_content3 ul li{
+    margin-right: 5px;
+}
+
+#box_content1 ul li:hover a,#box_content2 ul li:hover a,#box_content3 ul li:hover a{
+    color:#ff3333;
+}
+#box_content1 h5:hover a,#box_content2 h5:hover a,#box_content3 h5:hover a{
+    color:#ff3333;
+}
+#box_content3 span:hover a{
+    color:#ff3333;
+}
+
+#box_content1{
+    background: url("../images/examil_picture.gif") no-repeat;
+}
+#box_content2{
+    background: url("../images/kaola.gif") no-repeat;
+}
+#box_content3{
+    background: url("../images/wangyi_Games.gif") no-repeat;
+}
+#box_content1 ul li{
+    display: inline-block;
+
+}
+#box_content2 ul li{
+    display: inline-block;
+}
+#box_content3 a{
+    width: 100px;
+}
+#box_content3 h5{
+    width: 60px;
+}
+#box_content3 h5,#box_content3 span{
+    display: inline-block;
+}
+#box_content3 span a{
+    color:#5c5c5c ;
+}
+#box_content3 ul li,#box_content3 ul li{
+    display: inline-block;
+}
+
