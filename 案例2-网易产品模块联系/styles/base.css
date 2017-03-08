@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+/*栏目标题*/
+#box{
+    width: 300px;
+    height: 475px;
+    border: 1px solid #aaaaaa;
+}
+#box_title p,#box_title a{
+  display: inline-block;
+}
+#box_title br{
+    clear: both;
+}#box_title{
+    height: 40px;
+ }
+ #box_title p{
+     width: 150px;
+     line-height: 38px;
+     text-align: center;
+     font-size: 15px;
+     font-weight: bolder;
+     color: #ff3333;
+ }
+#box_title a{
+    width: 89px;
+    line-height: 42px;
+    text-align: center;
+    color: #888888;
+}
+#box_title a:hover{
+    color: #61cdff;
+}
+ #box_title p{
+     border-top: 2px solid #ff3333;
+ }
+ #box_title a{
+    border-left: 1px solid #cfcfcf;
+     border-bottom: 1px solid #cfcfcf;
+     border-top: 1px solid #cfcfcf;
+     background: #f8f8f8;
+     padding-left: 60px;
+ }
+
+/*分栏题目*/
+#box_content_title{
+    width: 274px;
+    margin:0px auto 0px auto;
+    line-height: 45px;
+    border-bottom: 1px solid #cfcfcf;
+    margin-top: 5px;
+}
+#box_content_title a{
+    margin-right: 2px;
+    font-size: 15px;
+}
+
+/*内容栏*/
+.box_content{
+    width: 274px;
+    border-bottom: 1px solid #aaaaaa;
+    margin: 0 auto 0 auto;
+}
+.box_content:last-child{
+    border-bottom: 0;
+}
+.box_content .head1{
+   /* width: 274px;*/
+    height: 14px;
+    padding-left: 2px;
+    background: url("../images/first.gif") no-repeat 0 0;
+    margin-top: 16px;
+}
+.box_content .head1 a{
+    font-size: 14px;
+    margin-left: 6px;
+}
+.box_content .head1 a:hover{
+    color: #ff3333;
+}
+
+.box_content .content_1{
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+.box_content .content_1 a{
+    color: #7f7f7f;
+    margin-right: 4px;
+    white-space: nowrap;
+    line-height: 21px;
+}
+.box_content .content_1 a:hover{
+    color: #ff3333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
