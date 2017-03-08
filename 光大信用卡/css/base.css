@@ -1,0 +1,245 @@
+/*样式重置*/
+body,div,h2,h3,h4,h5,li{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-align: center;
+	text-decoration: none;
+	color:black;
+}
+
+
+
+.clear:after{
+	content: '';
+	overflow: hidden;
+	clear: both;
+}
+
+
+/*设置背景*/
+body{
+	max-width:1920px;
+	width: 100%;
+	margin: 0 auto;
+	height: 2700px;
+	background: url(../img/all_bag.png) no-repeat center 0;
+}
+
+#header,#ad,#content,#cad_show,#content,#the_last,#footer{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#header{
+	height: 240px;
+}
+
+
+/*logo*/
+#header_logo{
+	margin: 15px 0 0 20px;
+}
+
+
+
+
+/*办卡*/
+#apply{
+	float: right;
+	width: 285px;
+	margin-top: 25px;
+	position: relative;
+}
+
+#apply_cad,#cad_ing{
+	
+	display: inline-block;
+}
+/*#apply_cad{
+	height: 100px;
+}*/
+
+
+#apply #zhaoyun_cad{
+	position: absolute;
+	display: block;
+	width: 108px;
+	height: 45px;
+	background: url(../img/zhaoyun_cad_1.png) no-repeat 0 0;
+	top: 52px;
+	right: 162px;
+}
+
+#apply #zhaoyun_cad:hover{
+	background: url(../img/zhaoyun_cad_2.png) no-repeat 0 0;
+}
+
+
+
+#apply #meng3guo_cad{
+	position: absolute;
+	display: block;
+	width: 108px;
+	height: 38px;
+	background: url(../img/M3_cad_1.png) no-repeat 0 0;
+	top:97px ;
+	right: 162px;
+}
+#apply #meng3guo_cad:hover{
+	background: url(../img/M3_cad_2.png) no-repeat 0 0;
+}
+
+
+/*
+#cad_ing{
+}
+*/
+
+/*ad*/
+#ad_img{
+	display: block;
+	width: 482px;
+	height: 160px;
+	margin: 0 auto;
+}
+
+
+#qiangqiang{
+	display: block;
+	width: 346px;
+	height: 33px;
+	margin: 0 auto;
+}
+#click_for{
+	width: 397px;
+	height: 221px;
+	margin: 0 auto;
+	margin-top: -33px;
+	padding-right: 68px;
+}
+/*添加一个鼠标移入移出动作*/
+
+#ad{
+	margin-bottom:78px ;
+}
+
+
+/*卡片展示*/
+#cad_show #show{
+	display: block;
+	width: 202px;
+	height: 83px;
+	margin:0 auto;
+	padding-top: 50px;
+}
+
+#cad_show a{
+	display: block;
+	margin-top: 82px;
+}
+#cad_show{
+	height: 690px;
+}
+
+
+/*content*/
+#content_title{
+	display: block;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+#con_con{
+	width: 1000px;
+	height: 606px;
+	margin: 0 auto;
+}
+
+#con_con #the_one{
+	float: left;
+	width: 284px;
+	height: 604px;
+	background: url(../img/mystery.png) no-repeat 0 0;
+}
+
+p{
+	font-family: "微软雅黑";
+}
+
+#the_one p{
+	width: 205px;
+	height: 290px;
+	color: #4d5568;
+	font-size: 13px;
+	margin: 0 auto;
+	padding-top: 113px;
+	line-height: 30px;
+	letter-spacing: 3px;
+}
+
+#the_two{
+	float: right;
+	width: 712px;
+	height: 609px;
+	background: url(../img/paty_2_bg.png) no-repeat 0 0;
+	border-bottom: 1px solid black;
+}
+
+#the_two p{
+	font-size: 15px;
+	width: 638px;
+	margin: 0 auto;
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+#the_two p:nth-of-type(1){
+	padding-top: 200px;
+	
+}
+#the_two p:nth-of-type(2){
+	padding-top: 25px;
+}
+
+#content{
+	margin-bottom: 150px;
+}
+
+
+
+/*the_last*/
+#the_last{
+	position: relative;
+	padding-top: 60px;
+	margin-bottom: 96px;
+}
+
+#chice{
+	position: absolute;
+	top: 16px;
+	right: 3px;
+}
+
+
+#chise a{
+	width: 226px;
+	height: 44px;
+}
+
+
+/*fooer*/
+
+#footer{
+	
+}
+
+
+
+
+
+
+
