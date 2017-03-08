@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<script type="text/javascript" src="js/jquery-1.3.1.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				
+				var setNum=27;
+				var iNow=0;
+				
+				$('input').click(function(){
+					
+					setNum=Math.floor(Math.random()*$('li').length);
+						clearInterval(timer);
+					
+					var timer=setInterval(function(){
+						
+						$('li').eq(iNow).attr('class','active').siblings().attr('class','');
+						setNum--;
+	
+						if(setNum == 0){
+							
+							clearInterval(timer);
+							alert( $('li').eq(iNow).html() );
+						}	
+						
+						iNow++;
+					
+							if(iNow == $('li').length){
+							iNow=0;
+						}
+				
+					},100);
+		
+				})
+		
+			})
+			
+			
+			
+		</script>
+	</head>
+	<body>
+		<input type="button" value="抽奖" />
+		<ul>
+			<li>1等奖</li>
+			<li>2等奖</li>
+			<li>3等奖</li>
+			<li>4等奖</li>
+			<li>5等奖</li>
+			<li>6等奖</li>
+			<li>7等奖</li>
+			<li>8等奖</li>
+			<li>9等奖</li>
+		</ul>
+	</body>
+</html>
