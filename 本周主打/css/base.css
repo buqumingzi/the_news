@@ -1,0 +1,136 @@
+/*样式重置*/
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+li{
+	list-style: none;
+}
+
+/*万能清除法*/
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	height: 0;
+}
+
+
+#box{
+	margin: 100px auto;
+	width: 1052px;
+	/*height: 715px;*/
+	border:  1px solid black;
+}
+
+#box h3{
+	line-height: 120px;
+	padding-left: 43px;
+	/*height: 120px;*/
+	background: url(../img/fire_logo.png) no-repeat 0 44px;
+	margin-left: 45px;
+	font-size: 30px;
+	color: #44c3f0;
+}
+
+.content_ad{
+	display: inline-block;
+	width: 399px;
+	/*height: 255px;*/
+	margin-left: 45px;
+}
+.content_ad:nth-of-type(2){
+	margin-left: 100px;
+}
+
+.show1,.show2{
+	width: 238px;
+	/*height: 255px;*/
+	padding-left: 210px;
+}
+
+.show1 h4,.show2 h4{
+	color: #44c3f0;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.show1 p,.show2 p{
+	line-height: 30px;
+	font-size: 17px;
+}
+.show1 p:last-of-type,.show2 p:last-of-type{
+	width: 190px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.show1 a,.show2 a{
+	display: inline-block;
+	text-align: center;
+	width: 90px;
+	line-height: 36px;
+	border: 1px solid #009dd6;
+	font-size: 17px;
+	color: #009dd6;
+	margin-top: 50px;
+	
+}
+.show1 a:hover,.show2 a:hover{
+	color: white;
+	background: #009dd6;
+}
+
+
+.show1{
+	background: url(../img/content_ad_1.png) no-repeat;
+}
+
+.show2{
+	background: url(../img/content_ad_2.png) no-repeat;
+}
+
+
+/*content*/
+.content {
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+.content ul li{
+	float: left;
+	margin-left: 76px;
+}
+.content img{
+	border:  1px solid black;
+}
+
+.content ul li:nth-of-type(1){
+	margin-left: 45px;
+}
+.content h4{
+	margin-top: 10px;
+	color: #44c3f0;
+	font-size: 18px;
+}
+.content p{
+	line-height: 30px;
+	font-size: 15px;
+}
+.content p:nth-of-type(1){
+	margin-top: 10px;
+}
+
+.content img:hover{
+	border: 1px solid #ffffff;
+}
+
+
