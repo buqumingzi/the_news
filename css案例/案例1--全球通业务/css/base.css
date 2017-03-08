@@ -1,0 +1,107 @@
+/*样式重置*/
+body,h2,h3,p{
+	margin: 0;
+	padding: 0;
+}
+li{
+	text-decoration: none;
+	list-style: none;
+}
+
+
+
+#bg{
+	position: relative;
+	width: 1000px;
+	height: 690px;
+	background: url(../img/bg.png) repeat-x;
+	margin: 0 auto;
+}
+#content_bg{
+	position: absolute;
+	width: 800px;
+	height: 380px;
+	background: #fefefe;
+	top: 110px;
+	left: 130px;
+}
+#content{
+	position: absolute;
+	width: 700px;
+	height: 320px;
+	border-top:2px solid #c8939b ;
+	left:55px;
+	top: 35px;
+}
+
+/*logo*/
+
+#content h2{
+	padding-left: 33px;
+	line-height: 23px;
+	background: url(../img/logo1.png) no-repeat;
+	font-size: 15px;
+	color:#c8939b ;
+	margin-top: 10px;
+}
+
+/*content*/
+
+#content ul{
+	overflow: hidden;
+	margin-left: -65px;
+	margin-bottom: 40px;
+}
+#content ul li{
+	width: 106px;
+	height: 140px;
+	float: left;
+	text-align: center;
+	margin-left: 35px;
+}
+#content img{
+	border: 1px solid #cccccc;
+}
+#content p{
+	font-size: 14px;
+}
+
+
+/*推荐*/
+.base{
+	margin-top: 10px;
+}
+.base h3,.base a{
+	display: inline-block;
+}
+.base h3{
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	font-size: 16px;
+	color: white;
+	background: #C8939B;
+	width: 125px;
+	height: 30px;
+	line-height: 30px;
+}
+.base a{
+	text-decoration: none;
+	color: black;
+	border-right:1px solid black ;
+	margin-left: 10px;
+	padding-right: 15px;
+	
+}
+.base a:hover{
+	color: blueviolet;
+}
+.base a:last-child{
+	border: 0;
+}
+
+
+
+
+
+
+
