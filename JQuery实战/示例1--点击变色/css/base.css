@@ -1,0 +1,13 @@
+a{
+	text-decoration: none;
+	color: black;
+}
+#box2,#box3,#box4,#box5{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	margin-left: 20px;
+}
+
+
