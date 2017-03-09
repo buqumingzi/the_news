@@ -1,0 +1,62 @@
+/*样式重置*/
+body,div{
+margin: 0;
+padding: 0;
+}
+/*设置*/
+body{
+	width: 1920px;
+	height: 3100px;
+}
+
+/*.box{
+	position: relative;
+	margin: 200px auto;
+	width: 800px;
+	height: 1000px;
+	border: 1px solid brown;
+}
+.box img{
+	position: absolute;
+	width: 200px;
+	height: 100px;
+}
+.box img:nth-of-type(1){
+	left: 0;
+	top: 0;
+}
+.box img:nth-of-type(2){
+	left: 150px;
+	top: 150px;
+}
+.box img:nth-of-type(3){
+	left: 100px;
+	top:280px ;
+}
+.box img:nth-of-type(4){
+	left: 140px;
+	top:400px ;
+}*/
+
+
+body{
+	position: relative;
+}
+
+#box1,#box2{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: red;
+}
+#box2{
+	top: 400px;
+	left: 400px;
+	
+}
+
+
+
+
+
+
