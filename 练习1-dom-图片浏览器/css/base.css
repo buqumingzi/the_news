@@ -1,0 +1,62 @@
+/*样式重置*/
+body,span,a{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 600px;
+	margin: 200px auto 0 auto;
+}
+div{
+	width: 352px;
+	position: relative;
+}
+
+div img{
+	width: 352px;
+	height: 220px;
+}
+#perv,#next{
+	display: block;
+	width: 20px;
+	line-height: 40px;
+	background: #CCCCCC;
+	opacity: 0.4;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+#perv:hover,#next:hover{
+	cursor: pointer;
+}
+#perv{
+	position: absolute;
+	margin-top: 85px;
+	
+}
+#next{
+	position: absolute;
+	right: 0;
+	top: 85px;
+}
+#top_top,#down_down{
+	position: absolute;
+	width: 352px;
+	height: 20px;
+	background: #cccccc;
+	text-align: center;
+	left: 0;
+	opacity: 0.6;
+}
+#top_top{
+	top: 0;
+}
+#down_down{
+	bottom: 3px;
+}
+
+
+
+
+
