@@ -1,0 +1,63 @@
+/*样式重置*/
+body,div,img{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*设置*/
+body{
+	max-width: 1920px;
+	margin: 0 auto;
+	
+}
+
+#bg{
+	margin-top: 50px;
+	background: cornflowerblue;
+}
+
+#Carousel_figure{
+	position: relative;
+	width: 600px;
+	height: 800px;
+	margin: 0 auto;
+	border: 20px solid slateblue;
+	overflow: hidden;
+}
+
+#Carousel_figure img{
+	position: absolute;
+	width: 600px;
+	height: 800px;
+}
+#Carousel_figure a{
+	text-align: center;
+	top: 400px;
+	display: block;
+	z-index: 10;
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	width: 30px;
+	line-height: 60px;
+	background: white;
+}
+
+#next{
+	right: 0;	
+}
+
+
+
+
+
+
+
+
+
