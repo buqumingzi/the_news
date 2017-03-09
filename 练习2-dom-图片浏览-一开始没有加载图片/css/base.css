@@ -1,0 +1,57 @@
+/*样式重置*/
+body{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-align: center;
+	text-decoration: none;
+}
+body{
+	width: 500px;
+	margin: 300px auto 0 auto;
+}
+div{
+	position: relative;
+	width: 400px;
+	height: 300px;
+}
+img{
+	width: 400px;
+	height: 300px;
+}
+
+#top_title,#bottom_title{
+	position: absolute;
+	display: block;
+	width: 400px;
+	background: #ccc;
+	text-align: center;
+}
+#top_title{
+	left: 0;
+	top: 0;
+}
+#bottom_title{
+	left: 0;
+	bottom: 0;
+}
+#prev,#next{
+	position: absolute;
+	display: block;
+	background: #ccc;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+}
+#prev{
+	top: 130px;
+}
+#next{
+	top: 130px;
+	right: 0;
+}
+
+
+
