@@ -1,0 +1,20 @@
+ul{
+	width: 100px;
+	height:200px;
+	border: 1px solid black;
+}
+ul,input{
+	float: left;
+}
+input{
+	margin-top: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.checked{
+	background: red;
+}
+
+
+
+
