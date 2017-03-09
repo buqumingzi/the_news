@@ -1,0 +1,62 @@
+/*样式重置*/
+*{margin: 0; padding: 0;}
+
+#box{
+	position: relative;
+	margin: 200px auto;
+	width: 883px;
+	height: 300px;
+	border: 10px solid #3f8df7;
+	overflow: hidden;
+	transition: 1s;
+}
+#box label{
+	position: absolute;
+	display: block;
+	width: 533px;
+	height: 300px;
+	top: 0;
+	transition: 1s;
+}
+
+#box input{
+	display: none;
+}
+
+
+#box label:nth-of-type(1){
+	background: url(../img/1.jpg) no-repeat;
+	left: 0px;
+}
+#box label:nth-of-type(2){
+	background: url(../img/2.jpg) no-repeat;
+	left: 70px;
+}
+#box label:nth-of-type(3){
+	background: url(../img/3.jpg) no-repeat;
+	left: 140px;
+}
+#box label:nth-of-type(4){
+	background: url(../img/4.jpg) no-repeat;
+	left: 210px;
+}
+#box label:nth-of-type(5){
+	background: url(../img/5.jpg) no-repeat;
+	left: 280px;
+}
+#box label:nth-of-type(6){
+	background: url(../img/6.jpg) no-repeat;
+	left: 350px;
+}
+
+#box input:checked~label{
+	transform: translateX(463px);
+	-webkit-transform: translateX(463px);
+}
+
+
+
+
+
+
+
